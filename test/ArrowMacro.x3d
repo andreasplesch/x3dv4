@@ -32,18 +32,14 @@
                   <Appearance USE='Red'></Appearance>
                 </Shape>
               </Transform>
-              <Transform rotation='1 0 0 0'>
+              <Transform translation='0 0 0.2' rotation='1 0 0 0'>
                 <Billboard axisOfRotation='0 0 0'>
-                  <Transform translation='0 0 %length%'>    
-                  <Transform translation='0 0 0.2'>
                     <Shape isPickable="false" DEF="AXIS_LABEL_X">
                     <Text string="X" solid="false">
                       <FontStyle size="0.3"></FontStyle>
                     </Text>
                     <Appearance USE='Red'></Appearance>
                     </Shape>
-                  </Transform>
-                  </Transform>
                 </Billboard>
               </Transform>
             </Transform>
