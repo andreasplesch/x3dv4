@@ -25,7 +25,7 @@
                 <Material diffuseColor="0 0 0" emissiveColor='%color%'></Material>
               </Appearance>
             </Shape>
-            <Transform translation='1 0 0'>
+            <Transform translation='%length% 0 0'>
               <Transform rotation='0 0 1 -1.57079632679'>
                 <Shape isPickable="false" DEF="AXIS_ARROW_X">
                   <Cone DEF='ArrowCone' bottomRadius='.10' height='0.5' subdivision="16"></Cone>
