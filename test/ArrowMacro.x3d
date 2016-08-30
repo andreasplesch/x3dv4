@@ -21,7 +21,7 @@
               <IndexedLineSet index="0 1 -1">
                 <Coordinate point="0 0 0.001, %length% 0 0.001"></Coordinate>
               </IndexedLineSet>
-              <Appearance DEF='Red'>
+              <Appearance DEF='%DefId%Red'>
                 <Material diffuseColor="0 0 0" emissiveColor='%color%'></Material>
               </Appearance>
             </Shape>
@@ -29,16 +29,16 @@
               <Transform rotation='0 0 1 -1.57079632679'>
                 <Shape isPickable="false" DEF="AXIS_ARROW_X">
                   <Cone DEF='ArrowCone' bottomRadius='.10' height='0.5' subdivision="16"></Cone>
-                  <Appearance USE='Red'></Appearance>
+                  <Appearance USE='%DefId%Red'></Appearance>
                 </Shape>
               </Transform>
-              <Transform translation='0 0 0.2' rotation='1 0 0 0'>
+              <Transform translation='0.2 0 0' rotation='1 0 0 0'>
                 <Billboard axisOfRotation='0 0 0'>
                     <Shape isPickable="false" DEF="AXIS_LABEL_X">
                     <Text string="X" solid="false">
                       <FontStyle size="0.3"></FontStyle>
                     </Text>
-                    <Appearance USE='Red'></Appearance>
+                    <Appearance USE='%DefId%Red'></Appearance>
                     </Shape>
                 </Billboard>
               </Transform>
