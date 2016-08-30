@@ -101,14 +101,15 @@ if (flags.DESKTOP) {
 			<macro url='testMacro.x3d' params='"color=0 1 0" "DefId=o2" "geometry=cone"'></macro>
 		</transform>
 		<!-- arrows -->
-		<transform translation='+3 0 0'>
+		<transform translation='-3 -2 0'>
 			<macro url='ArrowMacro.x3d' params='"color=0 1 0" "DefId=o3" "lengthness=2" "label=X" '></macro> <!-- length is reserved for array.length -->
-		</transform>
-		<transform translation='+3 0 0' rotation='0 0 1 1.57'>
-			<macro url='ArrowMacro.x3d' params='"color=blue" "DefId=o4" "lengthness=1.5"  "label=Y" '></macro>
-		</transform>
-		<transform translation='+3 0 0' rotation='0 1 0 1.57'>
-			<macro url='ArrowMacro.x3d' params='"color=red" "DefId=o5" "lengthness=1"  "label=Z" '></macro>
+		
+			<transform rotation='0 0 1 1.57'>
+				<macro url='ArrowMacro.x3d' params='"color=blue" "DefId=o4" "lengthness=1.5"  "label=Y" '></macro>
+			</transform>
+			<transform rotation='0 1 0 1.57'>
+				<macro url='ArrowMacro.x3d' params='"color=red" "DefId=o5" "lengthness=1"  "label=Z" '></macro>
+			</transform>
 		</transform>
     </scene>
 	<script>
